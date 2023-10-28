@@ -1,4 +1,5 @@
 *{
+    text-align: center;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -12,6 +13,7 @@
 }
 
 #background-video{
+    filter: brightness(60%);
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -23,6 +25,7 @@
     z-index: -1;
   }
   .navbar ul li{
+    font-size: 17px;
     padding-top: 1%;
     list-style: none;
     display: inline-block;
@@ -33,14 +36,15 @@
 .navbar ul li a{
     font: bolder;
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(11, 104, 34);
     text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar ul li::after{
     content: "";
     height: 3px;
     width: 0;
-    background: rgb(48, 116, 16);
+    background: rgb(76, 194, 105);
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -52,6 +56,7 @@
 }
 .content{
     
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     width: 100%;
     position: absolute;
@@ -60,12 +65,13 @@
     text-align: center;
 }
 .content h1{
-    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
     margin-top: 30px;
 }
 .content p{
-    font-size: large;
-    font-family: fantasy;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button{
     width: 150px;
@@ -75,7 +81,7 @@ button{
     border-radius: 25px;
     font-size: 15px;
     font-weight: bold;
-    border: 2.5px solid rgb(48, 116, 16);
+    border: 2.5px solid rgb(11, 104, 34);
     background: transparent;
     color: #ffffff;
     cursor: pointer;
@@ -83,7 +89,7 @@ button{
     overflow: hidden;
 }
 span{
-    background-color: rgb(48, 116, 16);
+    background-color: rgb(76, 194, 105);
     height: 100%;
     width: 0;
     border-radius: 25px;
