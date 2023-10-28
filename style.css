@@ -34,9 +34,10 @@
   }
 
 .navbar ul li a{
+    font-size: large;
     font: bolder;
     text-decoration: none;
-    color: rgb(11, 104, 34);
+    color: rgb(32, 161, 65);
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -89,7 +90,7 @@ button{
     overflow: hidden;
 }
 span{
-    background-color: rgb(76, 194, 105);
+    background-color: rgb(32, 161, 65);
     height: 100%;
     width: 0;
     border-radius: 25px;
